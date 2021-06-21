@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /mahesh/new_chatapp
+    destination: /home/ubuntu/mahesh/new_chatapp
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
